@@ -1,0 +1,57 @@
+.container{
+    width: 98%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.301);
+}
+.head h3{
+    margin: 2rem 3rem;
+}
+.sub-container{
+    width: 98%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+.menu-bar{
+    display: inline-block
+}
+.group{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+.card-content{
+    height: 350px;
+    width: 260px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.301);
+}
+.img img{
+    width: 100%;
+    height: auto;
+}
+.box-container{
+    width: 90%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+.head-name{
+    margin-top: 0.5rem;
+    font-size: 16px;
+}
+.button-2{
+    background-color: white;
+    color: rgb(94, 94, 94);
+    border: none;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.137);
+    font-size: 14px;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}

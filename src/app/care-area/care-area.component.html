@@ -1,0 +1,52 @@
+<div>
+    <div>
+        <div class="head">
+            <h3>พื้นที่ดูแล(1)</h3>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="sub-container">
+                <div>
+                    <div>
+                        <div class="menu-bar">
+                            <button class="button" type="button">เพิ่มพื้นที่ดูแล</button>
+                            <button class="button" type="button">จัดกลุ่มพื้นที่ดูแล</button>
+                        </div>
+                        <div class="group">
+                            <select class="select">
+                                <option *ngFor="let province of provinces" [value]="province.id">{{province.province}}
+                                </option>
+                            </select>
+                            <input type="text" placeholder="ค้นหา" />
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <hr>
+                </div>
+                <div class="card-content">
+                    <div class="img">
+                        <img src="../../assets/img/Chaldea_HQ_outside.png" alt="">
+                    </div>
+                    <div class="box-container">
+                        <div class="head-name">
+                            <p>Project A (Active)</p>
+                        </div>
+                        <div class="">
+                            <p>asda</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, facilis.</p>
+                        </div>
+                        <hr>
+                        <div class="menu-bar">
+                            <p>แอดมิน 5 คน</p>
+                        </div>
+                        <div class="group">
+                            <button class="button-2">แก้ไข</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
